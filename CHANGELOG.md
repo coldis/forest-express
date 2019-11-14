@@ -1,6 +1,9 @@
 # Change Log
 
 ## [Unreleased]
+### Added
+- Routes - Expose the record services and the permissions middleware.
+
 ### Fixed
 - Error Handling - Fix error message when configDir does not exist.
 - Error Handling - Prevent server to crash when Forest Admin API does not respond.
