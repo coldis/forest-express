@@ -23,7 +23,7 @@ const CONFIG = {
 
 const TITLE = '[forest] 🌳🌳🌳  ';
 
-module.exports = new (winston.Logger)({
+module.exports = winston.createLogger({
   transports: [
     new (winston.transports.Console)({
       formatter: (options) => {
